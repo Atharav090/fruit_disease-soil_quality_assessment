@@ -1,0 +1,870 @@
+{
+  "APPLE___blotch_apple": {
+    "raw_key": "APPLE___blotch_apple",
+    "canonical_crop": "apple",
+    "canonical_disease": "apple blotch",
+    "display_name": "Apple Blotch",
+    "is_healthy_class": false,
+    "raw_condition": "blotch_apple",
+    "normalized_condition": "apple blotch",
+    "canonical_key": "apple::apple blotch",
+    "aliases": [
+      "Apple Blotch",
+      "apple blotch",
+      "APPLE___blotch_apple",
+      "blotch_apple"
+    ]
+  },
+  "APPLE___healthy_apple": {
+    "raw_key": "APPLE___healthy_apple",
+    "canonical_crop": "apple",
+    "canonical_disease": "healthy",
+    "display_name": "Apple Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy_apple",
+    "normalized_condition": "healthy",
+    "canonical_key": "apple::healthy",
+    "aliases": [
+      "Apple Healthy",
+      "healthy",
+      "APPLE___healthy_apple",
+      "healthy_apple"
+    ]
+  },
+  "APPLE___rot_apple": {
+    "raw_key": "APPLE___rot_apple",
+    "canonical_crop": "apple",
+    "canonical_disease": "apple rot",
+    "display_name": "Apple Rot",
+    "is_healthy_class": false,
+    "raw_condition": "rot_apple",
+    "normalized_condition": "apple rot",
+    "canonical_key": "apple::apple rot",
+    "aliases": [
+      "rot_apple",
+      "APPLE___rot_apple",
+      "Apple Rot",
+      "apple rot"
+    ]
+  },
+  "APPLE___scab_apple": {
+    "raw_key": "APPLE___scab_apple",
+    "canonical_crop": "apple",
+    "canonical_disease": "apple scab",
+    "display_name": "Apple Scab",
+    "is_healthy_class": false,
+    "raw_condition": "scab_apple",
+    "normalized_condition": "apple scab",
+    "canonical_key": "apple::apple scab",
+    "aliases": [
+      "apple scab",
+      "Apple Scab",
+      "APPLE___scab_apple",
+      "scab_apple"
+    ]
+  },
+  "Apple___Apple_scab": {
+    "raw_key": "Apple___Apple_scab",
+    "canonical_crop": "apple",
+    "canonical_disease": "apple scab",
+    "display_name": "Apple Scab",
+    "is_healthy_class": false,
+    "raw_condition": "Apple_scab",
+    "normalized_condition": "apple scab",
+    "canonical_key": "apple::apple scab",
+    "aliases": [
+      "apple scab",
+      "Apple_scab",
+      "Apple Scab",
+      "Apple___Apple_scab"
+    ]
+  },
+  "Apple___Black_rot": {
+    "raw_key": "Apple___Black_rot",
+    "canonical_crop": "apple",
+    "canonical_disease": "black rot",
+    "display_name": "Black Rot",
+    "is_healthy_class": false,
+    "raw_condition": "Black_rot",
+    "normalized_condition": "black rot",
+    "canonical_key": "apple::black rot",
+    "aliases": [
+      "Apple___Black_rot",
+      "Black Rot",
+      "black rot",
+      "Black_rot"
+    ]
+  },
+  "Apple___Cedar_apple_rust": {
+    "raw_key": "Apple___Cedar_apple_rust",
+    "canonical_crop": "apple",
+    "canonical_disease": "cedar apple rust",
+    "display_name": "Cedar Apple Rust",
+    "is_healthy_class": false,
+    "raw_condition": "Cedar_apple_rust",
+    "normalized_condition": "cedar apple rust",
+    "canonical_key": "apple::cedar apple rust",
+    "aliases": [
+      "cedar apple rust",
+      "Apple___Cedar_apple_rust",
+      "Cedar_apple_rust",
+      "Cedar Apple Rust"
+    ]
+  },
+  "Apple___healthy": {
+    "raw_key": "Apple___healthy",
+    "canonical_crop": "apple",
+    "canonical_disease": "healthy",
+    "display_name": "Apple Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "apple::healthy",
+    "aliases": [
+      "Apple Healthy",
+      "healthy",
+      "Apple___healthy"
+    ]
+  },
+  "Blueberry___healthy": {
+    "raw_key": "Blueberry___healthy",
+    "canonical_crop": "blueberry",
+    "canonical_disease": "healthy",
+    "display_name": "Blueberry Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "blueberry::healthy",
+    "aliases": [
+      "Blueberry Healthy",
+      "Blueberry___healthy",
+      "healthy"
+    ]
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "raw_key": "Cherry_(including_sour)___Powdery_mildew",
+    "canonical_crop": "cherry",
+    "canonical_disease": "powdery mildew",
+    "display_name": "Powdery Mildew",
+    "is_healthy_class": false,
+    "raw_condition": "Powdery_mildew",
+    "normalized_condition": "powdery mildew",
+    "canonical_key": "cherry::powdery mildew",
+    "aliases": [
+      "powdery mildew",
+      "Powdery Mildew",
+      "Cherry_(including_sour)___Powdery_mildew",
+      "Powdery_mildew"
+    ]
+  },
+  "Cherry_(including_sour)___healthy": {
+    "raw_key": "Cherry_(including_sour)___healthy",
+    "canonical_crop": "cherry",
+    "canonical_disease": "healthy",
+    "display_name": "Cherry Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "cherry::healthy",
+    "aliases": [
+      "Cherry Healthy",
+      "healthy",
+      "Cherry_(including_sour)___healthy"
+    ]
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "raw_key": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "canonical_crop": "corn",
+    "canonical_disease": "cercospora leaf spot gray leaf spot",
+    "display_name": "Cercospora Leaf Spot Gray Leaf Spot",
+    "is_healthy_class": false,
+    "raw_condition": "Cercospora_leaf_spot Gray_leaf_spot",
+    "normalized_condition": "cercospora leaf spot gray leaf spot",
+    "canonical_key": "corn::cercospora leaf spot gray leaf spot",
+    "aliases": [
+      "cercospora leaf spot gray leaf spot",
+      "Cercospora_leaf_spot Gray_leaf_spot",
+      "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "Cercospora Leaf Spot Gray Leaf Spot"
+    ]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "raw_key": "Corn_(maize)___Common_rust_",
+    "canonical_crop": "corn",
+    "canonical_disease": "common rust",
+    "display_name": "Common Rust",
+    "is_healthy_class": false,
+    "raw_condition": "Common_rust_",
+    "normalized_condition": "common rust",
+    "canonical_key": "corn::common rust",
+    "aliases": [
+      "Common_rust_",
+      "Corn_(maize)___Common_rust_",
+      "Common Rust",
+      "common rust"
+    ]
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "raw_key": "Corn_(maize)___Northern_Leaf_Blight",
+    "canonical_crop": "corn",
+    "canonical_disease": "northern leaf blight",
+    "display_name": "Northern Leaf Blight",
+    "is_healthy_class": false,
+    "raw_condition": "Northern_Leaf_Blight",
+    "normalized_condition": "northern leaf blight",
+    "canonical_key": "corn::northern leaf blight",
+    "aliases": [
+      "Northern_Leaf_Blight",
+      "northern leaf blight",
+      "Corn_(maize)___Northern_Leaf_Blight",
+      "Northern Leaf Blight"
+    ]
+  },
+  "Corn_(maize)___healthy": {
+    "raw_key": "Corn_(maize)___healthy",
+    "canonical_crop": "corn",
+    "canonical_disease": "healthy",
+    "display_name": "Corn Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "corn::healthy",
+    "aliases": [
+      "Corn_(maize)___healthy",
+      "healthy",
+      "Corn Healthy"
+    ]
+  },
+  "GUAVA___anthracnose_guava": {
+    "raw_key": "GUAVA___anthracnose_guava",
+    "canonical_crop": "guava",
+    "canonical_disease": "guava anthracnose",
+    "display_name": "Guava Anthracnose",
+    "is_healthy_class": false,
+    "raw_condition": "anthracnose_guava",
+    "normalized_condition": "guava anthracnose",
+    "canonical_key": "guava::guava anthracnose",
+    "aliases": [
+      "Guava Anthracnose",
+      "GUAVA___anthracnose_guava",
+      "anthracnose_guava",
+      "guava anthracnose"
+    ]
+  },
+  "GUAVA___fruitfly_guava": {
+    "raw_key": "GUAVA___fruitfly_guava",
+    "canonical_crop": "guava",
+    "canonical_disease": "guava fruitfly",
+    "display_name": "Guava Fruitfly",
+    "is_healthy_class": false,
+    "raw_condition": "fruitfly_guava",
+    "normalized_condition": "guava fruitfly",
+    "canonical_key": "guava::guava fruitfly",
+    "aliases": [
+      "Guava Fruitfly",
+      "fruitfly_guava",
+      "guava fruitfly",
+      "GUAVA___fruitfly_guava"
+    ]
+  },
+  "GUAVA___healthy_guava": {
+    "raw_key": "GUAVA___healthy_guava",
+    "canonical_crop": "guava",
+    "canonical_disease": "healthy",
+    "display_name": "Guava Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy_guava",
+    "normalized_condition": "healthy",
+    "canonical_key": "guava::healthy",
+    "aliases": [
+      "GUAVA___healthy_guava",
+      "Guava Healthy",
+      "healthy",
+      "healthy_guava"
+    ]
+  },
+  "Grape___Black_rot": {
+    "raw_key": "Grape___Black_rot",
+    "canonical_crop": "grape",
+    "canonical_disease": "black rot",
+    "display_name": "Black Rot",
+    "is_healthy_class": false,
+    "raw_condition": "Black_rot",
+    "normalized_condition": "black rot",
+    "canonical_key": "grape::black rot",
+    "aliases": [
+      "Black Rot",
+      "black rot",
+      "Black_rot",
+      "Grape___Black_rot"
+    ]
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "raw_key": "Grape___Esca_(Black_Measles)",
+    "canonical_crop": "grape",
+    "canonical_disease": "esca (black measles)",
+    "display_name": "Esca (Black Measles)",
+    "is_healthy_class": false,
+    "raw_condition": "Esca_(Black_Measles)",
+    "normalized_condition": "esca (black measles)",
+    "canonical_key": "grape::esca (black measles)",
+    "aliases": [
+      "esca (black measles)",
+      "Esca_(Black_Measles)",
+      "Esca (Black Measles)",
+      "Grape___Esca_(Black_Measles)"
+    ]
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "raw_key": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "canonical_crop": "grape",
+    "canonical_disease": "leaf blight (isariopsis leaf spot)",
+    "display_name": "Leaf Blight (Isariopsis Leaf Spot)",
+    "is_healthy_class": false,
+    "raw_condition": "Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "normalized_condition": "leaf blight (isariopsis leaf spot)",
+    "canonical_key": "grape::leaf blight (isariopsis leaf spot)",
+    "aliases": [
+      "Leaf Blight (Isariopsis Leaf Spot)",
+      "Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "leaf blight (isariopsis leaf spot)",
+      "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)"
+    ]
+  },
+  "Grape___healthy": {
+    "raw_key": "Grape___healthy",
+    "canonical_crop": "grape",
+    "canonical_disease": "healthy",
+    "display_name": "Grape Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "grape::healthy",
+    "aliases": [
+      "Grape Healthy",
+      "Grape___healthy",
+      "healthy"
+    ]
+  },
+  "MANGO___alternaria_mango": {
+    "raw_key": "MANGO___alternaria_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "mango alternaria",
+    "display_name": "Mango Alternaria",
+    "is_healthy_class": false,
+    "raw_condition": "alternaria_mango",
+    "normalized_condition": "mango alternaria",
+    "canonical_key": "mango::mango alternaria",
+    "aliases": [
+      "MANGO___alternaria_mango",
+      "Mango Alternaria",
+      "mango alternaria",
+      "alternaria_mango"
+    ]
+  },
+  "MANGO___anthracnose_mango": {
+    "raw_key": "MANGO___anthracnose_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "mango anthracnose",
+    "display_name": "Mango Anthracnose",
+    "is_healthy_class": false,
+    "raw_condition": "anthracnose_mango",
+    "normalized_condition": "mango anthracnose",
+    "canonical_key": "mango::mango anthracnose",
+    "aliases": [
+      "anthracnose_mango",
+      "mango anthracnose",
+      "MANGO___anthracnose_mango",
+      "Mango Anthracnose"
+    ]
+  },
+  "MANGO___black_mould_rot_(aspergillus)_mango": {
+    "raw_key": "MANGO___black_mould_rot_(aspergillus)_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "mango black mould rot (aspergillus)",
+    "display_name": "Mango Black Mould Rot (Aspergillus)",
+    "is_healthy_class": false,
+    "raw_condition": "black_mould_rot_(aspergillus)_mango",
+    "normalized_condition": "mango black mould rot (aspergillus)",
+    "canonical_key": "mango::mango black mould rot (aspergillus)",
+    "aliases": [
+      "Mango Black Mould Rot (Aspergillus)",
+      "MANGO___black_mould_rot_(aspergillus)_mango",
+      "mango black mould rot (aspergillus)",
+      "black_mould_rot_(aspergillus)_mango"
+    ]
+  },
+  "MANGO___healthy_mango": {
+    "raw_key": "MANGO___healthy_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "healthy",
+    "display_name": "Mango Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy_mango",
+    "normalized_condition": "healthy",
+    "canonical_key": "mango::healthy",
+    "aliases": [
+      "MANGO___healthy_mango",
+      "healthy_mango",
+      "healthy",
+      "Mango Healthy"
+    ]
+  },
+  "MANGO___stem_and_rot_(lasiodiplodia)_mango": {
+    "raw_key": "MANGO___stem_and_rot_(lasiodiplodia)_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "mango stem and rot (lasiodiplodia)",
+    "display_name": "Mango Stem And Rot (Lasiodiplodia)",
+    "is_healthy_class": false,
+    "raw_condition": "stem_and_rot_(lasiodiplodia)_mango",
+    "normalized_condition": "mango stem and rot (lasiodiplodia)",
+    "canonical_key": "mango::mango stem and rot (lasiodiplodia)",
+    "aliases": [
+      "MANGO___stem_and_rot_(lasiodiplodia)_mango",
+      "Mango Stem And Rot (Lasiodiplodia)",
+      "stem_and_rot_(lasiodiplodia)_mango",
+      "mango stem and rot (lasiodiplodia)"
+    ]
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "raw_key": "Orange___Haunglongbing_(Citrus_greening)",
+    "canonical_crop": "orange",
+    "canonical_disease": "haunglongbing (citrus greening)",
+    "display_name": "Haunglongbing (Citrus Greening)",
+    "is_healthy_class": false,
+    "raw_condition": "Haunglongbing_(Citrus_greening)",
+    "normalized_condition": "haunglongbing (citrus greening)",
+    "canonical_key": "orange::haunglongbing (citrus greening)",
+    "aliases": [
+      "Orange___Haunglongbing_(Citrus_greening)",
+      "Haunglongbing (Citrus Greening)",
+      "haunglongbing (citrus greening)",
+      "Haunglongbing_(Citrus_greening)"
+    ]
+  },
+  "POMEGRANATE___alternaria_pomegranate": {
+    "raw_key": "POMEGRANATE___alternaria_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "pomegranate alternaria",
+    "display_name": "Pomegranate Alternaria",
+    "is_healthy_class": false,
+    "raw_condition": "alternaria_pomegranate",
+    "normalized_condition": "pomegranate alternaria",
+    "canonical_key": "pomegranate::pomegranate alternaria",
+    "aliases": [
+      "pomegranate alternaria",
+      "Pomegranate Alternaria",
+      "alternaria_pomegranate",
+      "POMEGRANATE___alternaria_pomegranate"
+    ]
+  },
+  "POMEGRANATE___anthracnose_pomegranate": {
+    "raw_key": "POMEGRANATE___anthracnose_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "pomegranate anthracnose",
+    "display_name": "Pomegranate Anthracnose",
+    "is_healthy_class": false,
+    "raw_condition": "anthracnose_pomegranate",
+    "normalized_condition": "pomegranate anthracnose",
+    "canonical_key": "pomegranate::pomegranate anthracnose",
+    "aliases": [
+      "pomegranate anthracnose",
+      "POMEGRANATE___anthracnose_pomegranate",
+      "anthracnose_pomegranate",
+      "Pomegranate Anthracnose"
+    ]
+  },
+  "POMEGRANATE___bacterial_blight_pomegranate": {
+    "raw_key": "POMEGRANATE___bacterial_blight_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "pomegranate bacterial blight",
+    "display_name": "Pomegranate Bacterial Blight",
+    "is_healthy_class": false,
+    "raw_condition": "bacterial_blight_pomegranate",
+    "normalized_condition": "pomegranate bacterial blight",
+    "canonical_key": "pomegranate::pomegranate bacterial blight",
+    "aliases": [
+      "POMEGRANATE___bacterial_blight_pomegranate",
+      "bacterial_blight_pomegranate",
+      "pomegranate bacterial blight",
+      "Pomegranate Bacterial Blight"
+    ]
+  },
+  "POMEGRANATE___cercospora_pomegranate": {
+    "raw_key": "POMEGRANATE___cercospora_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "pomegranate cercospora",
+    "display_name": "Pomegranate Cercospora",
+    "is_healthy_class": false,
+    "raw_condition": "cercospora_pomegranate",
+    "normalized_condition": "pomegranate cercospora",
+    "canonical_key": "pomegranate::pomegranate cercospora",
+    "aliases": [
+      "Pomegranate Cercospora",
+      "cercospora_pomegranate",
+      "POMEGRANATE___cercospora_pomegranate",
+      "pomegranate cercospora"
+    ]
+  },
+  "POMEGRANATE___healthy_pomegranate": {
+    "raw_key": "POMEGRANATE___healthy_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "healthy",
+    "display_name": "Pomegranate Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy_pomegranate",
+    "normalized_condition": "healthy",
+    "canonical_key": "pomegranate::healthy",
+    "aliases": [
+      "healthy_pomegranate",
+      "POMEGRANATE___healthy_pomegranate",
+      "healthy",
+      "Pomegranate Healthy"
+    ]
+  },
+  "Peach___Bacterial_spot": {
+    "raw_key": "Peach___Bacterial_spot",
+    "canonical_crop": "peach",
+    "canonical_disease": "bacterial spot",
+    "display_name": "Bacterial Spot",
+    "is_healthy_class": false,
+    "raw_condition": "Bacterial_spot",
+    "normalized_condition": "bacterial spot",
+    "canonical_key": "peach::bacterial spot",
+    "aliases": [
+      "Bacterial_spot",
+      "Peach___Bacterial_spot",
+      "bacterial spot",
+      "Bacterial Spot"
+    ]
+  },
+  "Peach___healthy": {
+    "raw_key": "Peach___healthy",
+    "canonical_crop": "peach",
+    "canonical_disease": "healthy",
+    "display_name": "Peach Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "peach::healthy",
+    "aliases": [
+      "Peach Healthy",
+      "Peach___healthy",
+      "healthy"
+    ]
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "raw_key": "Pepper,_bell___Bacterial_spot",
+    "canonical_crop": "bell pepper",
+    "canonical_disease": "bacterial spot",
+    "display_name": "Bacterial Spot",
+    "is_healthy_class": false,
+    "raw_condition": "Bacterial_spot",
+    "normalized_condition": "bacterial spot",
+    "canonical_key": "bell pepper::bacterial spot",
+    "aliases": [
+      "Bacterial_spot",
+      "bacterial spot",
+      "Bacterial Spot",
+      "Pepper,_bell___Bacterial_spot"
+    ]
+  },
+  "Pepper,_bell___healthy": {
+    "raw_key": "Pepper,_bell___healthy",
+    "canonical_crop": "bell pepper",
+    "canonical_disease": "healthy",
+    "display_name": "Bell Pepper Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "bell pepper::healthy",
+    "aliases": [
+      "Bell Pepper Healthy",
+      "healthy",
+      "Pepper,_bell___healthy"
+    ]
+  },
+  "Potato___Early_blight": {
+    "raw_key": "Potato___Early_blight",
+    "canonical_crop": "potato",
+    "canonical_disease": "early blight",
+    "display_name": "Early Blight",
+    "is_healthy_class": false,
+    "raw_condition": "Early_blight",
+    "normalized_condition": "early blight",
+    "canonical_key": "potato::early blight",
+    "aliases": [
+      "Potato___Early_blight",
+      "early blight",
+      "Early_blight",
+      "Early Blight"
+    ]
+  },
+  "Potato___Late_blight": {
+    "raw_key": "Potato___Late_blight",
+    "canonical_crop": "potato",
+    "canonical_disease": "late blight",
+    "display_name": "Late Blight",
+    "is_healthy_class": false,
+    "raw_condition": "Late_blight",
+    "normalized_condition": "late blight",
+    "canonical_key": "potato::late blight",
+    "aliases": [
+      "Late Blight",
+      "late blight",
+      "Potato___Late_blight",
+      "Late_blight"
+    ]
+  },
+  "Potato___healthy": {
+    "raw_key": "Potato___healthy",
+    "canonical_crop": "potato",
+    "canonical_disease": "healthy",
+    "display_name": "Potato Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "potato::healthy",
+    "aliases": [
+      "Potato Healthy",
+      "Potato___healthy",
+      "healthy"
+    ]
+  },
+  "Raspberry___healthy": {
+    "raw_key": "Raspberry___healthy",
+    "canonical_crop": "raspberry",
+    "canonical_disease": "healthy",
+    "display_name": "Raspberry Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "raspberry::healthy",
+    "aliases": [
+      "Raspberry Healthy",
+      "Raspberry___healthy",
+      "healthy"
+    ]
+  },
+  "Soybean___healthy": {
+    "raw_key": "Soybean___healthy",
+    "canonical_crop": "soybean",
+    "canonical_disease": "healthy",
+    "display_name": "Soybean Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "soybean::healthy",
+    "aliases": [
+      "Soybean Healthy",
+      "Soybean___healthy",
+      "healthy"
+    ]
+  },
+  "Squash___Powdery_mildew": {
+    "raw_key": "Squash___Powdery_mildew",
+    "canonical_crop": "squash",
+    "canonical_disease": "powdery mildew",
+    "display_name": "Powdery Mildew",
+    "is_healthy_class": false,
+    "raw_condition": "Powdery_mildew",
+    "normalized_condition": "powdery mildew",
+    "canonical_key": "squash::powdery mildew",
+    "aliases": [
+      "Squash___Powdery_mildew",
+      "powdery mildew",
+      "Powdery Mildew",
+      "Powdery_mildew"
+    ]
+  },
+  "Strawberry___Leaf_scorch": {
+    "raw_key": "Strawberry___Leaf_scorch",
+    "canonical_crop": "strawberry",
+    "canonical_disease": "leaf scorch",
+    "display_name": "Leaf Scorch",
+    "is_healthy_class": false,
+    "raw_condition": "Leaf_scorch",
+    "normalized_condition": "leaf scorch",
+    "canonical_key": "strawberry::leaf scorch",
+    "aliases": [
+      "Leaf_scorch",
+      "leaf scorch",
+      "Leaf Scorch",
+      "Strawberry___Leaf_scorch"
+    ]
+  },
+  "Strawberry___healthy": {
+    "raw_key": "Strawberry___healthy",
+    "canonical_crop": "strawberry",
+    "canonical_disease": "healthy",
+    "display_name": "Strawberry Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "strawberry::healthy",
+    "aliases": [
+      "Strawberry Healthy",
+      "healthy",
+      "Strawberry___healthy"
+    ]
+  },
+  "Tomato___Bacterial_spot": {
+    "raw_key": "Tomato___Bacterial_spot",
+    "canonical_crop": "tomato",
+    "canonical_disease": "bacterial spot",
+    "display_name": "Bacterial Spot",
+    "is_healthy_class": false,
+    "raw_condition": "Bacterial_spot",
+    "normalized_condition": "bacterial spot",
+    "canonical_key": "tomato::bacterial spot",
+    "aliases": [
+      "Bacterial_spot",
+      "bacterial spot",
+      "Tomato___Bacterial_spot",
+      "Bacterial Spot"
+    ]
+  },
+  "Tomato___Early_blight": {
+    "raw_key": "Tomato___Early_blight",
+    "canonical_crop": "tomato",
+    "canonical_disease": "early blight",
+    "display_name": "Early Blight",
+    "is_healthy_class": false,
+    "raw_condition": "Early_blight",
+    "normalized_condition": "early blight",
+    "canonical_key": "tomato::early blight",
+    "aliases": [
+      "Tomato___Early_blight",
+      "early blight",
+      "Early_blight",
+      "Early Blight"
+    ]
+  },
+  "Tomato___Late_blight": {
+    "raw_key": "Tomato___Late_blight",
+    "canonical_crop": "tomato",
+    "canonical_disease": "late blight",
+    "display_name": "Late Blight",
+    "is_healthy_class": false,
+    "raw_condition": "Late_blight",
+    "normalized_condition": "late blight",
+    "canonical_key": "tomato::late blight",
+    "aliases": [
+      "Late Blight",
+      "late blight",
+      "Tomato___Late_blight",
+      "Late_blight"
+    ]
+  },
+  "Tomato___Leaf_Mold": {
+    "raw_key": "Tomato___Leaf_Mold",
+    "canonical_crop": "tomato",
+    "canonical_disease": "leaf mold",
+    "display_name": "Leaf Mold",
+    "is_healthy_class": false,
+    "raw_condition": "Leaf_Mold",
+    "normalized_condition": "leaf mold",
+    "canonical_key": "tomato::leaf mold",
+    "aliases": [
+      "Leaf Mold",
+      "Tomato___Leaf_Mold",
+      "Leaf_Mold",
+      "leaf mold"
+    ]
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "raw_key": "Tomato___Septoria_leaf_spot",
+    "canonical_crop": "tomato",
+    "canonical_disease": "septoria leaf spot",
+    "display_name": "Septoria Leaf Spot",
+    "is_healthy_class": false,
+    "raw_condition": "Septoria_leaf_spot",
+    "normalized_condition": "septoria leaf spot",
+    "canonical_key": "tomato::septoria leaf spot",
+    "aliases": [
+      "Tomato___Septoria_leaf_spot",
+      "Septoria_leaf_spot",
+      "septoria leaf spot",
+      "Septoria Leaf Spot"
+    ]
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "raw_key": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "canonical_crop": "tomato",
+    "canonical_disease": "spider mites two-spotted spider mite",
+    "display_name": "Spider Mites Two-Spotted Spider Mite",
+    "is_healthy_class": false,
+    "raw_condition": "Spider_mites Two-spotted_spider_mite",
+    "normalized_condition": "spider mites two-spotted spider mite",
+    "canonical_key": "tomato::spider mites two-spotted spider mite",
+    "aliases": [
+      "spider mites two-spotted spider mite",
+      "Spider_mites Two-spotted_spider_mite",
+      "Spider Mites Two-Spotted Spider Mite",
+      "Tomato___Spider_mites Two-spotted_spider_mite"
+    ]
+  },
+  "Tomato___Target_Spot": {
+    "raw_key": "Tomato___Target_Spot",
+    "canonical_crop": "tomato",
+    "canonical_disease": "target spot",
+    "display_name": "Target Spot",
+    "is_healthy_class": false,
+    "raw_condition": "Target_Spot",
+    "normalized_condition": "target spot",
+    "canonical_key": "tomato::target spot",
+    "aliases": [
+      "target spot",
+      "Tomato___Target_Spot",
+      "Target Spot",
+      "Target_Spot"
+    ]
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "raw_key": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "canonical_crop": "tomato",
+    "canonical_disease": "tomato yellow leaf curl virus",
+    "display_name": "Tomato Yellow Leaf Curl Virus",
+    "is_healthy_class": false,
+    "raw_condition": "Tomato_Yellow_Leaf_Curl_Virus",
+    "normalized_condition": "tomato yellow leaf curl virus",
+    "canonical_key": "tomato::tomato yellow leaf curl virus",
+    "aliases": [
+      "Tomato_Yellow_Leaf_Curl_Virus",
+      "tomato yellow leaf curl virus",
+      "Tomato Yellow Leaf Curl Virus",
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    ]
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "raw_key": "Tomato___Tomato_mosaic_virus",
+    "canonical_crop": "tomato",
+    "canonical_disease": "tomato mosaic virus",
+    "display_name": "Tomato Mosaic Virus",
+    "is_healthy_class": false,
+    "raw_condition": "Tomato_mosaic_virus",
+    "normalized_condition": "tomato mosaic virus",
+    "canonical_key": "tomato::tomato mosaic virus",
+    "aliases": [
+      "tomato mosaic virus",
+      "Tomato Mosaic Virus",
+      "Tomato_mosaic_virus",
+      "Tomato___Tomato_mosaic_virus"
+    ]
+  },
+  "Tomato___healthy": {
+    "raw_key": "Tomato___healthy",
+    "canonical_crop": "tomato",
+    "canonical_disease": "healthy",
+    "display_name": "Tomato Healthy",
+    "is_healthy_class": true,
+    "raw_condition": "healthy",
+    "normalized_condition": "healthy",
+    "canonical_key": "tomato::healthy",
+    "aliases": [
+      "Tomato Healthy",
+      "Tomato___healthy",
+      "healthy"
+    ]
+  }
+}

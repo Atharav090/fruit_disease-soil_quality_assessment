@@ -1,0 +1,32 @@
+# SoilVisioNet Production Requirements - CORE PACKAGES ONLY
+# Python 3.9+
+# Updated to use currently available package versions (Feb 2026)
+# Note: Jupyter/JupyterLab packages moved to requirements-dev.txt due to Windows path length limits
+
+# Core dependencies
+torch>=2.9.0
+torchvision>=0.18.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Deep learning models
+transformers>=4.35.0
+pillow>=10.0.0
+
+# Image processing
+opencv-python>=4.8.0
+scikit-image>=0.22.0
+
+# UI and web
+streamlit>=1.28.0
+streamlit-option-menu>=0.3.6
+
+# Scientific computing
+scikit-learn>=1.3.0
+scipy>=1.11.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0

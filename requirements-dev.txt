@@ -1,0 +1,4 @@
+# Development / notebook extras
+jupyter
+notebook
+ipykernel

@@ -1,0 +1,4337 @@
+{
+  "APPLE___blotch_apple": {
+    "raw_key": "APPLE___blotch_apple",
+    "canonical_crop": "apple",
+    "canonical_disease": "apple blotch",
+    "display_name": "Apple Blotch",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.9,
+        "max": 6.6,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Excess nitrogen can encourage dense foliage and prolong leaf wetness",
+      "Soil pH outside the preferred orchard range can stress trees and weaken defenses"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Apple blotch is mainly associated with humid conditions and leaf wetness, not direct soil causation.",
+      "The displayed soil readings are simulated risk-associated values derived from crop baseline and disease context."
+    ],
+    "sources": [
+      {
+        "title": "Penn State Extension - Apple Disease Management",
+        "domain": "extension.psu.edu",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "University of Minnesota Extension - Growing Apples",
+        "domain": "extension.umn.edu",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 82,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 26,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 34,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.8,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "APPLE___healthy_apple": {
+    "raw_key": "APPLE___healthy_apple",
+    "canonical_crop": "apple",
+    "canonical_disease": "healthy",
+    "display_name": "Apple Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.9,
+        "max": 6.6,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Apple crop baseline uses fruit-tree fertility guidance and orchard soil-pH guidance.",
+      "Healthy orchard soil is modeled around moderately acidic to neutral conditions and balanced fertility."
+    ],
+    "sources": [
+      {
+        "title": "Penn State Extension - Soil Fertility for Fruit Trees",
+        "domain": "extension.psu.edu",
+        "evidence_use": "healthy_profile"
+      },
+      {
+        "title": "University of Minnesota Extension - Growing Apples",
+        "domain": "extension.umn.edu",
+        "evidence_use": "crop_baseline"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "APPLE___rot_apple": {
+    "raw_key": "APPLE___rot_apple",
+    "canonical_crop": "apple",
+    "canonical_disease": "apple rot",
+    "display_name": "Apple Rot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.9,
+        "max": 6.6,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Poor drainage and soil moisture extremes increase rot risk",
+      "Imbalanced nutrient levels, especially high nitrogen and low potassium, can reduce fruit firmness"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Apple fruit rot pressure is strongly linked with wet conditions and fruit stress.",
+      "The displayed soil readings are simulated to represent stress-associated conditions, not direct causal thresholds."
+    ],
+    "sources": [
+      {
+        "title": "Penn State Extension - Apple Nutrition",
+        "domain": "extension.psu.edu",
+        "evidence_use": "healthy_profile"
+      },
+      {
+        "title": "University of Minnesota Extension - Black Rot of Apple",
+        "domain": "extension.umn.edu",
+        "evidence_use": "disease_relationship"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 86,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 27,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.0,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "APPLE___scab_apple": {
+    "raw_key": "APPLE___scab_apple",
+    "canonical_crop": "apple",
+    "canonical_disease": "apple scab",
+    "display_name": "Apple Scab",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.9,
+        "max": 6.6,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "High nitrogen promotes dense canopy and longer leaf wetness periods",
+      "Low potassium may limit plant defense and recovery",
+      "Non-ideal soil pH can contribute to orchard stress"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Apple scab severity is linked to foliage wetness and vigorous canopy growth rather than direct soil-causation.",
+      "The displayed soil readings are simulated risk-associated values for demo use."
+    ],
+    "sources": [
+      {
+        "title": "Penn State Extension - Apple Scab",
+        "domain": "extension.psu.edu",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "University of Minnesota Extension - Growing Apples",
+        "domain": "extension.umn.edu",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 84,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 28,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 32,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.1,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Apple___Apple_scab": {
+    "raw_key": "Apple___Apple_scab",
+    "canonical_crop": "apple",
+    "canonical_disease": "apple scab",
+    "display_name": "Apple Scab",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.9,
+        "max": 6.6,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "High nitrogen promotes dense canopy and longer leaf wetness periods",
+      "Low potassium may limit plant defense and recovery",
+      "Non-ideal soil pH can contribute to orchard stress"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Apple scab severity is linked to foliage wetness and vigorous canopy growth rather than direct soil-causation.",
+      "The displayed soil readings are simulated risk-associated values for demo use."
+    ],
+    "sources": [
+      {
+        "title": "Penn State Extension - Apple Scab",
+        "domain": "extension.psu.edu",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "University of Minnesota Extension - Growing Apples",
+        "domain": "extension.umn.edu",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 84,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 28,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 32,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.1,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Apple___Black_rot": {
+    "raw_key": "Apple___Black_rot",
+    "canonical_crop": "apple",
+    "canonical_disease": "black rot",
+    "display_name": "Black Rot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.9,
+        "max": 6.6,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Wet conditions and poor air circulation encourage black rot spread",
+      "Nutrient imbalance can reduce stress tolerance and fruit quality"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Black rot is linked to warm wet conditions and stressed trees.",
+      "The displayed soil readings are simulated stress-associated readings derived from crop baseline."
+    ],
+    "sources": [
+      {
+        "title": "University of Minnesota Extension - Black Rot of Apple",
+        "domain": "extension.umn.edu",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "Penn State Extension - Soil Fertility for Fruit Trees",
+        "domain": "extension.psu.edu",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 80,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 33,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.2,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Apple___Cedar_apple_rust": {
+    "raw_key": "Apple___Cedar_apple_rust",
+    "canonical_crop": "apple",
+    "canonical_disease": "cedar apple rust",
+    "display_name": "Cedar Apple Rust",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.9,
+        "max": 6.6,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Extended leaf wetness and humid conditions increase rust infection risk",
+      "Soil fertility stress can reduce tree resistance, but soil is not a direct cause"
+    ],
+    "causal_language": "indirect_risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Cedar apple rust depends on alternate host presence and wet conditions.",
+      "The displayed soil readings are indirect risk-style values intended for demo visualization."
+    ],
+    "sources": [
+      {
+        "title": "University of Minnesota Extension - Cedar Apple Rust",
+        "domain": "extension.umn.edu",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "University of Minnesota Extension - Growing Apples",
+        "domain": "extension.umn.edu",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 78,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 25,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 33,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.2,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Apple___healthy": {
+    "raw_key": "Apple___healthy",
+    "canonical_crop": "apple",
+    "canonical_disease": "healthy",
+    "display_name": "Apple Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.9,
+        "max": 6.6,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Apple crop baseline uses fruit-tree fertility guidance and orchard soil-pH guidance.",
+      "Healthy orchard soil is modeled around moderately acidic to neutral conditions and balanced fertility."
+    ],
+    "sources": [
+      {
+        "title": "Penn State Extension - Soil Fertility for Fruit Trees",
+        "domain": "extension.psu.edu",
+        "evidence_use": "healthy_profile"
+      },
+      {
+        "title": "University of Minnesota Extension - Growing Apples",
+        "domain": "extension.umn.edu",
+        "evidence_use": "crop_baseline"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Blueberry___healthy": {
+    "raw_key": "Blueberry___healthy",
+    "canonical_crop": "blueberry",
+    "canonical_disease": "healthy",
+    "display_name": "Blueberry Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.45,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "raw_key": "Cherry_(including_sour)___Powdery_mildew",
+    "canonical_crop": "cherry",
+    "canonical_disease": "powdery mildew",
+    "display_name": "Powdery Mildew",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 58.5,
+        "max": 71.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.17,
+        "max": 6.83,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 91,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 14,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 24,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.9,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Cherry_(including_sour)___healthy": {
+    "raw_key": "Cherry_(including_sour)___healthy",
+    "canonical_crop": "cherry",
+    "canonical_disease": "healthy",
+    "display_name": "Cherry Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 58.5,
+        "max": 71.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.17,
+        "max": 6.83,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "raw_key": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+    "canonical_crop": "corn",
+    "canonical_disease": "cercospora leaf spot gray leaf spot",
+    "display_name": "Cercospora Leaf Spot Gray Leaf Spot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 58.5,
+        "max": 71.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.17,
+        "max": 6.83,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 91,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 14,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 24,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.9,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Corn_(maize)___Common_rust_": {
+    "raw_key": "Corn_(maize)___Common_rust_",
+    "canonical_crop": "corn",
+    "canonical_disease": "common rust",
+    "display_name": "Common Rust",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 58.5,
+        "max": 71.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.17,
+        "max": 6.83,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 91,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 14,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 24,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.9,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "raw_key": "Corn_(maize)___Northern_Leaf_Blight",
+    "canonical_crop": "corn",
+    "canonical_disease": "northern leaf blight",
+    "display_name": "Northern Leaf Blight",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 58.5,
+        "max": 71.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.17,
+        "max": 6.83,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 91,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 14,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 24,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.9,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Corn_(maize)___healthy": {
+    "raw_key": "Corn_(maize)___healthy",
+    "canonical_crop": "corn",
+    "canonical_disease": "healthy",
+    "display_name": "Corn Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 58.5,
+        "max": 71.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.17,
+        "max": 6.83,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "GUAVA___anthracnose_guava": {
+    "raw_key": "GUAVA___anthracnose_guava",
+    "canonical_crop": "guava",
+    "canonical_disease": "guava anthracnose",
+    "display_name": "Guava Anthracnose",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 108.0,
+        "max": 132.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 40.5,
+        "max": 49.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 31.5,
+        "max": 38.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.8,
+        "max": 7.4,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "High humidity and poor drainage favor anthracnose development",
+      "Soil nutrient imbalance can stress trees and increase susceptibility"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Guava anthracnose is primarily a humidity-driven fungal disease.",
+      "The displayed soil readings are simulated susceptibility-associated values derived from crop baseline."
+    ],
+    "sources": [
+      {
+        "title": "TNAU - Guava Disease Management",
+        "domain": "tnau.ac.in",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "TNAU - Guava Cultivation Practices",
+        "domain": "tnau.ac.in",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 150,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 35,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 28,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.9,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "GUAVA___fruitfly_guava": {
+    "raw_key": "GUAVA___fruitfly_guava",
+    "canonical_crop": "guava",
+    "canonical_disease": "guava fruitfly",
+    "display_name": "Guava Fruitfly",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 108.0,
+        "max": 132.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 40.5,
+        "max": 49.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 31.5,
+        "max": 38.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.8,
+        "max": 7.4,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Plant stress from nutrient imbalance can increase susceptibility to fruitfly damage",
+      "Poor vigor from deficient potassium or phosphorus can reduce fruit resilience"
+    ],
+    "causal_language": "indirect_risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "low",
+    "source_notes": [
+      "Fruitfly damage is driven by insect pressure, not soil chemistry directly.",
+      "The displayed soil readings are indirect risk-style values for demo use."
+    ],
+    "sources": [
+      {
+        "title": "TNAU - Guava Fruit Fly Management",
+        "domain": "tnau.ac.in",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "National Horticulture Board - Guava",
+        "domain": "nhb.gov.in",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 140,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 40,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 25,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.8,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "GUAVA___healthy_guava": {
+    "raw_key": "GUAVA___healthy_guava",
+    "canonical_crop": "guava",
+    "canonical_disease": "healthy",
+    "display_name": "Guava Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 108.0,
+        "max": 132.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 40.5,
+        "max": 49.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 31.5,
+        "max": 38.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.8,
+        "max": 7.4,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Guava crop baseline uses Indian university and horticulture guidance for well-drained soils.",
+      "Healthy guava soil is modeled within a broad acceptable pH window and balanced fertility."
+    ],
+    "sources": [
+      {
+        "title": "TNAU - Guava Cultivation Practices",
+        "domain": "tnau.ac.in",
+        "evidence_use": "healthy_profile"
+      },
+      {
+        "title": "National Horticulture Board - Guava",
+        "domain": "nhb.gov.in",
+        "evidence_use": "crop_baseline"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Grape___Black_rot": {
+    "raw_key": "Grape___Black_rot",
+    "canonical_crop": "grape",
+    "canonical_disease": "black rot",
+    "display_name": "Black Rot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.75,
+        "max": 7.46,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "raw_key": "Grape___Esca_(Black_Measles)",
+    "canonical_crop": "grape",
+    "canonical_disease": "esca (black measles)",
+    "display_name": "Esca (Black Measles)",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.75,
+        "max": 7.46,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "raw_key": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "canonical_crop": "grape",
+    "canonical_disease": "leaf blight (isariopsis leaf spot)",
+    "display_name": "Leaf Blight (Isariopsis Leaf Spot)",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.75,
+        "max": 7.46,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Grape___healthy": {
+    "raw_key": "Grape___healthy",
+    "canonical_crop": "grape",
+    "canonical_disease": "healthy",
+    "display_name": "Grape Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.75,
+        "max": 7.46,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "MANGO___alternaria_mango": {
+    "raw_key": "MANGO___alternaria_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "mango alternaria",
+    "display_name": "Mango Alternaria",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.45,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "MANGO___anthracnose_mango": {
+    "raw_key": "MANGO___anthracnose_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "mango anthracnose",
+    "display_name": "Mango Anthracnose",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.45,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "MANGO___black_mould_rot_(aspergillus)_mango": {
+    "raw_key": "MANGO___black_mould_rot_(aspergillus)_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "mango black mould rot (aspergillus)",
+    "display_name": "Mango Black Mould Rot (Aspergillus)",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.45,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "MANGO___healthy_mango": {
+    "raw_key": "MANGO___healthy_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "healthy",
+    "display_name": "Mango Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.45,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "MANGO___stem_and_rot_(lasiodiplodia)_mango": {
+    "raw_key": "MANGO___stem_and_rot_(lasiodiplodia)_mango",
+    "canonical_crop": "mango",
+    "canonical_disease": "mango stem and rot (lasiodiplodia)",
+    "display_name": "Mango Stem And Rot (Lasiodiplodia)",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.45,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "raw_key": "Orange___Haunglongbing_(Citrus_greening)",
+    "canonical_crop": "orange",
+    "canonical_disease": "haunglongbing (citrus greening)",
+    "display_name": "Haunglongbing (Citrus Greening)",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.45,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "indirect_risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "POMEGRANATE___alternaria_pomegranate": {
+    "raw_key": "POMEGRANATE___alternaria_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "pomegranate alternaria",
+    "display_name": "Pomegranate Alternaria",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 7.4,
+        "max": 8.0,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Water stress and fruit cracking can raise alternaria fruit-rot risk",
+      "Imbalanced nutrition can weaken plant resilience"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Alternaria fruit rot risk is associated with orchard stress and cracking conditions.",
+      "The displayed soil readings are simulated risk-associated values derived from crop baseline."
+    ],
+    "sources": [
+      {
+        "title": "UC IPM - Pomegranate Alternaria Fruit Rot",
+        "domain": "ipm.ucanr.edu",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "National Horticulture Board - Pomegranate DPR",
+        "domain": "nhb.gov.in",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 88,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 37,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 20,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 7.2,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "POMEGRANATE___anthracnose_pomegranate": {
+    "raw_key": "POMEGRANATE___anthracnose_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "pomegranate anthracnose",
+    "display_name": "Pomegranate Anthracnose",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 7.4,
+        "max": 8.0,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Prolonged leaf wetness encourages anthracnose outbreaks",
+      "Nutrient imbalance can increase susceptibility under humid conditions"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Pomegranate anthracnose management depends more on canopy aeration and moisture reduction than direct soil-causation.",
+      "The displayed soil readings are simulated supportive-risk values."
+    ],
+    "sources": [
+      {
+        "title": "TNAU - Major Fungicides and Crop Protection Notes",
+        "domain": "tnau.ac.in",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "National Horticulture Board - Pomegranate DPR",
+        "domain": "nhb.gov.in",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 87,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 39,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 24,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 7.1,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "POMEGRANATE___bacterial_blight_pomegranate": {
+    "raw_key": "POMEGRANATE___bacterial_blight_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "pomegranate bacterial blight",
+    "display_name": "Pomegranate Bacterial Blight",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 7.4,
+        "max": 8.0,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Moisture-driven spread and plant stress favor bacterial blight pressure",
+      "Balanced fertility supports resilience but is not a direct cause"
+    ],
+    "causal_language": "susceptibility_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "medium",
+    "source_notes": [
+      "Bacterial blight pressure is mainly weather and inoculum driven.",
+      "The displayed soil readings are simulated susceptibility-associated values."
+    ],
+    "sources": [
+      {
+        "title": "National Horticulture Board - Pomegranate Bacterial Blight Advisory",
+        "domain": "nhb.gov.in",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "National Horticulture Board - Pomegranate DPR",
+        "domain": "nhb.gov.in",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 83,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 36,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 23,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 7.0,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "POMEGRANATE___cercospora_pomegranate": {
+    "raw_key": "POMEGRANATE___cercospora_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "pomegranate cercospora",
+    "display_name": "Pomegranate Cercospora",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 7.4,
+        "max": 8.0,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [
+      "Humid dense-canopy conditions favor cercospora leaf spot",
+      "Balanced fertility supports foliage health and stress tolerance"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_group_override",
+    "confidence": "low",
+    "source_notes": [
+      "Direct crop+disease-specific soil thresholds were not found for pomegranate cercospora.",
+      "The displayed soil readings are low-confidence simulated values derived from crop baseline and disease family logic."
+    ],
+    "sources": [
+      {
+        "title": "ICAR - Pomegranate Disease Notes",
+        "domain": "icar.gov.in",
+        "evidence_use": "disease_relationship"
+      },
+      {
+        "title": "National Horticulture Board - Pomegranate DPR",
+        "domain": "nhb.gov.in",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 85,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 38,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 22,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 7.1,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "POMEGRANATE___healthy_pomegranate": {
+    "raw_key": "POMEGRANATE___healthy_pomegranate",
+    "canonical_crop": "pomegranate",
+    "canonical_disease": "healthy",
+    "display_name": "Pomegranate Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 7.4,
+        "max": 8.0,
+        "unit": "pH",
+        "value_origin": "source_backed"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Pomegranate crop baseline uses horticulture and IPM guidance for well-drained soils.",
+      "Healthy pomegranate soil is modeled around slightly alkaline conditions where crop guidance supports it."
+    ],
+    "sources": [
+      {
+        "title": "National Horticulture Board - Pomegranate DPR",
+        "domain": "nhb.gov.in",
+        "evidence_use": "healthy_profile"
+      },
+      {
+        "title": "UC IPM - Pomegranate",
+        "domain": "ipm.ucanr.edu",
+        "evidence_use": "crop_baseline"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Peach___Bacterial_spot": {
+    "raw_key": "Peach___Bacterial_spot",
+    "canonical_crop": "peach",
+    "canonical_disease": "bacterial spot",
+    "display_name": "Bacterial Spot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.7,
+        "max": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 84,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 14,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 24,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.4,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Peach___healthy": {
+    "raw_key": "Peach___healthy",
+    "canonical_crop": "peach",
+    "canonical_disease": "healthy",
+    "display_name": "Peach Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 54.0,
+        "max": 66.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 5.7,
+        "max": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "raw_key": "Pepper,_bell___Bacterial_spot",
+    "canonical_crop": "bell pepper",
+    "canonical_disease": "bacterial spot",
+    "display_name": "Bacterial Spot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 58.5,
+        "max": 71.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.17,
+        "max": 6.83,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 91,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 14,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 24,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 5.9,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Pepper,_bell___healthy": {
+    "raw_key": "Pepper,_bell___healthy",
+    "canonical_crop": "bell pepper",
+    "canonical_disease": "healthy",
+    "display_name": "Bell Pepper Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 58.5,
+        "max": 71.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 18.0,
+        "max": 22.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 36.0,
+        "max": 44.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.17,
+        "max": 6.83,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Potato___Early_blight": {
+    "raw_key": "Potato___Early_blight",
+    "canonical_crop": "potato",
+    "canonical_disease": "early blight",
+    "display_name": "Early Blight",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 108.0,
+        "max": 132.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 40.5,
+        "max": 49.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 31.5,
+        "max": 38.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 7.22,
+        "max": 7.98,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 168,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 31,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 21,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 7.0,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Potato___Late_blight": {
+    "raw_key": "Potato___Late_blight",
+    "canonical_crop": "potato",
+    "canonical_disease": "late blight",
+    "display_name": "Late Blight",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 108.0,
+        "max": 132.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 40.5,
+        "max": 49.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 31.5,
+        "max": 38.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 7.22,
+        "max": 7.98,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 168,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 31,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 21,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 7.0,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Potato___healthy": {
+    "raw_key": "Potato___healthy",
+    "canonical_crop": "potato",
+    "canonical_disease": "healthy",
+    "display_name": "Potato Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 108.0,
+        "max": 132.0,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 40.5,
+        "max": 49.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 31.5,
+        "max": 38.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 7.22,
+        "max": 7.98,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Raspberry___healthy": {
+    "raw_key": "Raspberry___healthy",
+    "canonical_crop": "raspberry",
+    "canonical_disease": "healthy",
+    "display_name": "Raspberry Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.75,
+        "max": 7.46,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Soybean___healthy": {
+    "raw_key": "Soybean___healthy",
+    "canonical_crop": "soybean",
+    "canonical_disease": "healthy",
+    "display_name": "Soybean Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.45,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Squash___Powdery_mildew": {
+    "raw_key": "Squash___Powdery_mildew",
+    "canonical_crop": "squash",
+    "canonical_disease": "powdery mildew",
+    "display_name": "Powdery Mildew",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.46,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Strawberry___Leaf_scorch": {
+    "raw_key": "Strawberry___Leaf_scorch",
+    "canonical_crop": "strawberry",
+    "canonical_disease": "leaf scorch",
+    "display_name": "Leaf Scorch",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.46,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 105,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 30,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 16,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.5,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Strawberry___healthy": {
+    "raw_key": "Strawberry___healthy",
+    "canonical_crop": "strawberry",
+    "canonical_disease": "healthy",
+    "display_name": "Strawberry Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 67.5,
+        "max": 82.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 38.7,
+        "max": 47.3,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 23.4,
+        "max": 28.6,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.74,
+        "max": 7.46,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  },
+  "Tomato___Bacterial_spot": {
+    "raw_key": "Tomato___Bacterial_spot",
+    "canonical_crop": "tomato",
+    "canonical_disease": "bacterial spot",
+    "display_name": "Bacterial Spot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___Early_blight": {
+    "raw_key": "Tomato___Early_blight",
+    "canonical_crop": "tomato",
+    "canonical_disease": "early blight",
+    "display_name": "Early Blight",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___Late_blight": {
+    "raw_key": "Tomato___Late_blight",
+    "canonical_crop": "tomato",
+    "canonical_disease": "late blight",
+    "display_name": "Late Blight",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___Leaf_Mold": {
+    "raw_key": "Tomato___Leaf_Mold",
+    "canonical_crop": "tomato",
+    "canonical_disease": "leaf mold",
+    "display_name": "Leaf Mold",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "raw_key": "Tomato___Septoria_leaf_spot",
+    "canonical_crop": "tomato",
+    "canonical_disease": "septoria leaf spot",
+    "display_name": "Septoria Leaf Spot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "raw_key": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "canonical_crop": "tomato",
+    "canonical_disease": "spider mites two-spotted spider mite",
+    "display_name": "Spider Mites Two-Spotted Spider Mite",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "indirect_risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___Target_Spot": {
+    "raw_key": "Tomato___Target_Spot",
+    "canonical_crop": "tomato",
+    "canonical_disease": "target spot",
+    "display_name": "Target Spot",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "raw_key": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "canonical_crop": "tomato",
+    "canonical_disease": "tomato yellow leaf curl virus",
+    "display_name": "Tomato Yellow Leaf Curl Virus",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "indirect_risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "raw_key": "Tomato___Tomato_mosaic_virus",
+    "canonical_crop": "tomato",
+    "canonical_disease": "tomato mosaic virus",
+    "display_name": "Tomato Mosaic Virus",
+    "is_healthy_class": false,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [
+      "Potassium imbalance",
+      "Non-ideal soil pH",
+      "Excess or imbalanced nitrogen"
+    ],
+    "causal_language": "indirect_risk_associated",
+    "reading_mode": "simulated",
+    "evidence_type": "crop_baseline_plus_disease_risk",
+    "confidence": "low",
+    "source_notes": [
+      "Exact disease-specific NPK values were not found in authoritative sources for this class.",
+      "Crop-level soil guidance is used as baseline.",
+      "Displayed disease-side soil readings are conservative simulated demo values.",
+      "Soil parameters are risk-associated, not direct causes."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {
+      "nitrogen": {
+        "direction": "high_or_imbalanced",
+        "example_value": 101,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "phosphorus": {
+        "direction": "low_or_imbalanced",
+        "example_value": 29,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "potassium": {
+        "direction": "low",
+        "example_value": 15,
+        "unit": "ppm",
+        "value_origin": "derived_demo"
+      },
+      "ph": {
+        "direction": "low_or_high",
+        "example_value": 6.3,
+        "unit": "pH",
+        "value_origin": "derived_demo"
+      }
+    }
+  },
+  "Tomato___healthy": {
+    "raw_key": "Tomato___healthy",
+    "canonical_crop": "tomato",
+    "canonical_disease": "healthy",
+    "display_name": "Tomato Healthy",
+    "is_healthy_class": true,
+    "soil_parameter_scope": [
+      "nitrogen",
+      "phosphorus",
+      "potassium",
+      "ph"
+    ],
+    "healthy_profile": {
+      "nitrogen": {
+        "min": 64.8,
+        "max": 79.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "phosphorus": {
+        "min": 37.8,
+        "max": 46.2,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "potassium": {
+        "min": 22.5,
+        "max": 27.5,
+        "unit": "ppm",
+        "value_origin": "derived_from_crop_baseline"
+      },
+      "ph": {
+        "min": 6.55,
+        "max": 7.25,
+        "unit": "pH",
+        "value_origin": "derived_from_crop_baseline"
+      }
+    },
+    "contributing_parameters": [],
+    "causal_language": "",
+    "reading_mode": "baseline",
+    "evidence_type": "crop_baseline",
+    "confidence": "high",
+    "source_notes": [
+      "Crop-level optimal soil values used for baseline.",
+      "Values derived from crop database optimal_soil."
+    ],
+    "sources": [
+      {
+        "title": "Crop Database Baseline",
+        "domain": "internal_crop_database",
+        "evidence_use": "healthy_profile"
+      }
+    ],
+    "risk_profile": {}
+  }
+}

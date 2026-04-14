@@ -1,0 +1,3137 @@
+{
+  "APPLE___blotch_apple": {
+    "id": 38,
+    "crop": "apple",
+    "condition": "blotch_apple",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of blotch_apple",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.174193698121144
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541117
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 100
+  },
+  "APPLE___healthy_apple": {
+    "id": 39,
+    "crop": "apple",
+    "condition": "healthy_apple",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy_apple",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.174193698121144
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541117
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 100
+  },
+  "APPLE___rot_apple": {
+    "id": 40,
+    "crop": "apple",
+    "condition": "rot_apple",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of rot_apple",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.174193698121144
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541117
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 100
+  },
+  "APPLE___scab_apple": {
+    "id": 41,
+    "crop": "apple",
+    "condition": "scab_apple",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of scab_apple",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.174193698121144
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541117
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 100
+  },
+  "Apple___Apple_scab": {
+    "id": 22,
+    "crop": "apple",
+    "condition": "Apple_scab",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Apple_scab",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.174193698121144
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541117
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 111
+  },
+  "Apple___Black_rot": {
+    "id": 28,
+    "crop": "apple",
+    "condition": "Black_rot",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Black_rot",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.174193698121144
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541116
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 114
+  },
+  "Apple___Cedar_apple_rust": {
+    "id": 34,
+    "crop": "apple",
+    "condition": "Cedar_apple_rust",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Cedar_apple_rust",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.17419369812114
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541117
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 39
+  },
+  "Apple___healthy": {
+    "id": 23,
+    "crop": "apple",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.174193698121144
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541118
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 288
+  },
+  "Blueberry___healthy": {
+    "id": 2,
+    "crop": "blueberry",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 22.614181047769115,
+        "optimal": 19.174193698121144
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.6812970316541118
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 71.5639178771066,
+        "optimal": 65.09535941932117
+      }
+    },
+    "sample_count": 239
+  },
+  "Cherry_(including_sour)___Powdery_mildew": {
+    "id": 10,
+    "crop": "cherry_(including_sour)",
+    "condition": "Powdery_mildew",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Powdery_mildew",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975802
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355192
+      }
+    },
+    "sample_count": 181
+  },
+  "Cherry_(including_sour)___healthy": {
+    "id": 36,
+    "crop": "cherry_(including_sour)",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975802
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355191
+      }
+    },
+    "sample_count": 132
+  },
+  "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+    "id": 12,
+    "crop": "corn_(maize)",
+    "condition": "Cercospora_leaf_spot Gray_leaf_spot",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Cercospora_leaf_spot Gray_leaf_spot",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.8928170612658
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975803
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355191
+      }
+    },
+    "sample_count": 83
+  },
+  "Corn_(maize)___Common_rust_": {
+    "id": 25,
+    "crop": "corn_(maize)",
+    "condition": "Common_rust_",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Common_rust_",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975803
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355192
+      }
+    },
+    "sample_count": 199
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "id": 35,
+    "crop": "corn_(maize)",
+    "condition": "Northern_Leaf_Blight",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Northern_Leaf_Blight",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975802
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355191
+      }
+    },
+    "sample_count": 132
+  },
+  "Corn_(maize)___healthy": {
+    "id": 8,
+    "crop": "corn_(maize)",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975802
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355192
+      }
+    },
+    "sample_count": 212
+  },
+  "GUAVA___anthracnose_guava": {
+    "id": 42,
+    "crop": "guava",
+    "condition": "anthracnose_guava",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of anthracnose_guava",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 120.0,
+        "max": 120.0,
+        "optimal": 120.0
+      },
+      "phosphorus": {
+        "min": 45.0,
+        "max": 45.0,
+        "optimal": 45.0
+      },
+      "potassium": {
+        "min": 35.0,
+        "max": 35.0,
+        "optimal": 35.0
+      },
+      "ph": {
+        "min": 7.6,
+        "max": 7.6,
+        "optimal": 7.6
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.673549845705352,
+        "max": 30.13742603153419,
+        "optimal": 25.712910911617126
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.8897212120458317
+      },
+      "humidity": {
+        "min": 56.386742300018106,
+        "max": 85.23023262404628,
+        "optimal": 70.66323640663903
+      }
+    },
+    "sample_count": 100
+  },
+  "GUAVA___fruitfly_guava": {
+    "id": 43,
+    "crop": "guava",
+    "condition": "fruitfly_guava",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of fruitfly_guava",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 120.0,
+        "max": 120.0,
+        "optimal": 120.0
+      },
+      "phosphorus": {
+        "min": 45.0,
+        "max": 45.0,
+        "optimal": 45.0
+      },
+      "potassium": {
+        "min": 35.0,
+        "max": 35.0,
+        "optimal": 35.0
+      },
+      "ph": {
+        "min": 7.6,
+        "max": 7.6,
+        "optimal": 7.6
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.673549845705352,
+        "max": 30.13742603153419,
+        "optimal": 25.788330663366306
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.8730150878765708
+      },
+      "humidity": {
+        "min": 56.386742300018106,
+        "max": 85.23023262404628,
+        "optimal": 70.92231992784424
+      }
+    },
+    "sample_count": 100
+  },
+  "GUAVA___healthy_guava": {
+    "id": 44,
+    "crop": "guava",
+    "condition": "healthy_guava",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy_guava",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 120.0,
+        "max": 120.0,
+        "optimal": 120.0
+      },
+      "phosphorus": {
+        "min": 45.0,
+        "max": 45.0,
+        "optimal": 45.0
+      },
+      "potassium": {
+        "min": 35.0,
+        "max": 35.0,
+        "optimal": 35.0
+      },
+      "ph": {
+        "min": 7.6,
+        "max": 7.6,
+        "optimal": 7.6
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.673549845705352,
+        "max": 30.13742603153419,
+        "optimal": 25.844186150392716
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.8761800337174667
+      },
+      "humidity": {
+        "min": 56.386742300018106,
+        "max": 85.23023262404628,
+        "optimal": 71.14836500795396
+      }
+    },
+    "sample_count": 100
+  },
+  "Grape___Black_rot": {
+    "id": 1,
+    "crop": "grape",
+    "condition": "Black_rot",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Black_rot",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.397768153316086
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.2358894526006754
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 73.915832727269
+      }
+    },
+    "sample_count": 187
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "id": 9,
+    "crop": "grape",
+    "condition": "Esca_(Black_Measles)",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Esca_(Black_Measles)",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.372566157097456
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.2137310666427397
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 73.8843385259886
+      }
+    },
+    "sample_count": 233
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "id": 30,
+    "crop": "grape",
+    "condition": "Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Leaf_blight_(Isariopsis_Leaf_Spot)",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.410550462540662
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.2291800242375166
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 73.92105923638766
+      }
+    },
+    "sample_count": 159
+  },
+  "Grape___healthy": {
+    "id": 20,
+    "crop": "grape",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.364917984184697
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.2241423360533068
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 73.80781327008052
+      }
+    },
+    "sample_count": 67
+  },
+  "MANGO___alternaria_mango": {
+    "id": 45,
+    "crop": "mango",
+    "condition": "alternaria_mango",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of alternaria_mango",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.320559076607978
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0643896440008251
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.44425841379793
+      }
+    },
+    "sample_count": 115
+  },
+  "MANGO___anthracnose_mango": {
+    "id": 46,
+    "crop": "mango",
+    "condition": "anthracnose_mango",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of anthracnose_mango",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000002
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.29730900788576
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0370110136444255
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.3662270108565
+      }
+    },
+    "sample_count": 79
+  },
+  "MANGO___black_mould_rot_(aspergillus)_mango": {
+    "id": 47,
+    "crop": "mango",
+    "condition": "black_mould_rot_(aspergillus)_mango",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of black_mould_rot_(aspergillus)_mango",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.32683149590747
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0454285724087378
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.45366425901985
+      }
+    },
+    "sample_count": 182
+  },
+  "MANGO___healthy_mango": {
+    "id": 48,
+    "crop": "mango",
+    "condition": "healthy_mango",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy_mango",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.333314000080975
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0726195306011663
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.50875099777944
+      }
+    },
+    "sample_count": 205
+  },
+  "MANGO___stem_and_rot_(lasiodiplodia)_mango": {
+    "id": 49,
+    "crop": "mango",
+    "condition": "stem_and_rot_(lasiodiplodia)_mango",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of stem_and_rot_(lasiodiplodia)_mango",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.30484378815109
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0400281557748317
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.4154014124312
+      }
+    },
+    "sample_count": 157
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "id": 19,
+    "crop": "orange",
+    "condition": "Haunglongbing_(Citrus_greening)",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Haunglongbing_(Citrus_greening)",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975801
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355191
+      }
+    },
+    "sample_count": 847
+  },
+  "POMEGRANATE___alternaria_pomegranate": {
+    "id": 50,
+    "crop": "pomegranate",
+    "condition": "alternaria_pomegranate",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of alternaria_pomegranate",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.31481190511535
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0404433683329892
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.42381691591892
+      }
+    },
+    "sample_count": 886
+  },
+  "POMEGRANATE___anthracnose_pomegranate": {
+    "id": 51,
+    "crop": "pomegranate",
+    "condition": "anthracnose_pomegranate",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of anthracnose_pomegranate",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.314317325762207
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0582828512609477
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.44341944787631
+      }
+    },
+    "sample_count": 1166
+  },
+  "POMEGRANATE___bacterial_blight_pomegranate": {
+    "id": 52,
+    "crop": "pomegranate",
+    "condition": "bacterial_blight_pomegranate",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of bacterial_blight_pomegranate",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.32443131216874
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0528858984909049
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.44025287384622
+      }
+    },
+    "sample_count": 966
+  },
+  "POMEGRANATE___cercospora_pomegranate": {
+    "id": 53,
+    "crop": "pomegranate",
+    "condition": "cercospora_pomegranate",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of cercospora_pomegranate",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.311262402141043
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0457797402828302
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.4091632193491
+      }
+    },
+    "sample_count": 631
+  },
+  "POMEGRANATE___healthy_pomegranate": {
+    "id": 54,
+    "crop": "pomegranate",
+    "condition": "healthy_pomegranate",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy_pomegranate",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 23.329920939234785,
+        "max": 30.13742603153419,
+        "optimal": 26.31902473097937
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.055965164943731
+      },
+      "humidity": {
+        "min": 59.74041859555727,
+        "max": 85.23023262404628,
+        "optimal": 73.43975598464954
+      }
+    },
+    "sample_count": 1450
+  },
+  "Peach___Bacterial_spot": {
+    "id": 26,
+    "crop": "peach",
+    "condition": "Bacterial_spot",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Bacterial_spot",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 27.418051276207944,
+        "optimal": 21.19029460038032
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.5513046486383929
+      },
+      "humidity": {
+        "min": 49.309751840167735,
+        "max": 71.5639178771066,
+        "optimal": 63.2277969359583
+      }
+    },
+    "sample_count": 386
+  },
+  "Peach___healthy": {
+    "id": 15,
+    "crop": "peach",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 27.418051276207944,
+        "optimal": 21.24518778928771
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 5.600463162833007,
+        "optimal": 0.5704077903693683
+      },
+      "humidity": {
+        "min": 49.309751840167735,
+        "max": 71.5639178771066,
+        "optimal": 63.211123135829865
+      }
+    },
+    "sample_count": 74
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "id": 32,
+    "crop": "pepper_bell",
+    "condition": "Bacterial_spot",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Bacterial_spot",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975801
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355192
+      }
+    },
+    "sample_count": 158
+  },
+  "Pepper,_bell___healthy": {
+    "id": 4,
+    "crop": "pepper_bell",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999998
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975803
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355192
+      }
+    },
+    "sample_count": 241
+  },
+  "Potato___Early_blight": {
+    "id": 24,
+    "crop": "potato",
+    "condition": "Early_blight",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Early_blight",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 120.0,
+        "max": 120.0,
+        "optimal": 120.0
+      },
+      "phosphorus": {
+        "min": 45.0,
+        "max": 45.0,
+        "optimal": 45.0
+      },
+      "potassium": {
+        "min": 35.0,
+        "max": 35.0,
+        "optimal": 35.0
+      },
+      "ph": {
+        "min": 7.6,
+        "max": 7.6,
+        "optimal": 7.600000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 18.361204501064396,
+        "max": 32.025079992535744,
+        "optimal": 24.19282724564729
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 9.259187245328093,
+        "optimal": 0.9555790232715673
+      },
+      "humidity": {
+        "min": 49.309751840167735,
+        "max": 79.05237607593584,
+        "optimal": 65.40562776199035
+      }
+    },
+    "sample_count": 153
+  },
+  "Potato___Late_blight": {
+    "id": 18,
+    "crop": "potato",
+    "condition": "Late_blight",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Late_blight",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 120.0,
+        "max": 120.0,
+        "optimal": 120.0
+      },
+      "phosphorus": {
+        "min": 45.0,
+        "max": 45.0,
+        "optimal": 45.0
+      },
+      "potassium": {
+        "min": 35.0,
+        "max": 35.0,
+        "optimal": 35.0
+      },
+      "ph": {
+        "min": 7.6,
+        "max": 7.6,
+        "optimal": 7.6
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 18.361204501064396,
+        "max": 32.025079992535744,
+        "optimal": 24.254579570178983
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 9.259187245328093,
+        "optimal": 0.921337299405448
+      },
+      "humidity": {
+        "min": 49.309751840167735,
+        "max": 79.05237607593584,
+        "optimal": 65.50477128928337
+      }
+    },
+    "sample_count": 168
+  },
+  "Potato___healthy": {
+    "id": 27,
+    "crop": "potato",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 120.0,
+        "max": 120.0,
+        "optimal": 120.0
+      },
+      "phosphorus": {
+        "min": 45.0,
+        "max": 45.0,
+        "optimal": 45.0
+      },
+      "potassium": {
+        "min": 35.0,
+        "max": 35.0,
+        "optimal": 35.0
+      },
+      "ph": {
+        "min": 7.6,
+        "max": 7.6,
+        "optimal": 7.599999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 18.361204501064396,
+        "max": 32.025079992535744,
+        "optimal": 24.310567764960417
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 9.259187245328093,
+        "optimal": 0.9065680040157177
+      },
+      "humidity": {
+        "min": 49.309751840167735,
+        "max": 79.05237607593584,
+        "optimal": 65.97892150981339
+      }
+    },
+    "sample_count": 25
+  },
+  "Raspberry___healthy": {
+    "id": 37,
+    "crop": "raspberry",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000002
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265802
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975803
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355192
+      }
+    },
+    "sample_count": 44
+  },
+  "Soybean___healthy": {
+    "id": 21,
+    "crop": "soybean",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999998
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.892817061265795
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975801
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355192
+      }
+    },
+    "sample_count": 885
+  },
+  "Squash___Powdery_mildew": {
+    "id": 7,
+    "crop": "squash",
+    "condition": "Powdery_mildew",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Powdery_mildew",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 24.65868839905242,
+        "max": 30.13742603153419,
+        "optimal": 26.8928170612658
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9023285870975803
+      },
+      "humidity": {
+        "min": 64.2024752512559,
+        "max": 85.23023262404628,
+        "optimal": 75.26964707355192
+      }
+    },
+    "sample_count": 270
+  },
+  "Strawberry___Leaf_scorch": {
+    "id": 31,
+    "crop": "strawberry",
+    "condition": "Leaf_scorch",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Leaf_scorch",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 30.13742603153419,
+        "optimal": 23.12019988177384
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0845491901488582
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 85.23023262404628,
+        "optimal": 70.47834208321521
+      }
+    },
+    "sample_count": 187
+  },
+  "Strawberry___healthy": {
+    "id": 33,
+    "crop": "strawberry",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 16.48464898316874,
+        "max": 30.13742603153419,
+        "optimal": 23.280201536999435
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.129208906108642
+      },
+      "humidity": {
+        "min": 55.468720001525256,
+        "max": 85.23023262404628,
+        "optimal": 70.7394877073243
+      }
+    },
+    "sample_count": 84
+  },
+  "Tomato___Bacterial_spot": {
+    "id": 3,
+    "crop": "tomato",
+    "condition": "Bacterial_spot",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Bacterial_spot",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.8999999999999995
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.50112833837008
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.977920643653917
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 69.00558406362934
+      }
+    },
+    "sample_count": 297
+  },
+  "Tomato___Early_blight": {
+    "id": 29,
+    "crop": "tomato",
+    "condition": "Early_blight",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Early_blight",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.899999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.465420623021735
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9825686245050388
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 84.69963988401196,
+        "optimal": 69.03768598836179
+      }
+    },
+    "sample_count": 147
+  },
+  "Tomato___Late_blight": {
+    "id": 5,
+    "crop": "tomato",
+    "condition": "Late_blight",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Late_blight",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.899999999999999
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.473702653640665
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0098208835636249
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 69.07778234181094
+      }
+    },
+    "sample_count": 291
+  },
+  "Tomato___Leaf_Mold": {
+    "id": 16,
+    "crop": "tomato",
+    "condition": "Leaf_Mold",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Leaf_Mold",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.8999999999999995
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.54352312888204
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9429021994247411
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 69.2098503095553
+      }
+    },
+    "sample_count": 146
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "id": 17,
+    "crop": "tomato",
+    "condition": "Septoria_leaf_spot",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Septoria_leaf_spot",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.8999999999999995
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.50774725670842
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 1.0196317287016512
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 69.18352897418386
+      }
+    },
+    "sample_count": 275
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "id": 11,
+    "crop": "tomato",
+    "condition": "Spider_mites Two-spotted_spider_mite",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Spider_mites Two-spotted_spider_mite",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.9
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.49917481713828
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9864843559560633
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 68.88565649056392
+      }
+    },
+    "sample_count": 300
+  },
+  "Tomato___Target_Spot": {
+    "id": 14,
+    "crop": "tomato",
+    "condition": "Target_Spot",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Target_Spot",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.9
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.52153979346062
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9684829639697115
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 69.35140296862305
+      }
+    },
+    "sample_count": 211
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "id": 0,
+    "crop": "tomato",
+    "condition": "Tomato_Yellow_Leaf_Curl_Virus",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Tomato_Yellow_Leaf_Curl_Virus",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.900000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.517782797810913
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9811994268199276
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 69.20507215822306
+      }
+    },
+    "sample_count": 897
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "id": 13,
+    "crop": "tomato",
+    "condition": "Tomato_mosaic_virus",
+    "is_disease": true,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of Tomato_mosaic_virus",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.8999999999999995
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.454499586717297
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.8993494704706425
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 68.57988938728977
+      }
+    },
+    "sample_count": 65
+  },
+  "Tomato___healthy": {
+    "id": 6,
+    "crop": "tomato",
+    "condition": "healthy",
+    "is_disease": false,
+    "severity": "moderate",
+    "symptoms": {
+      "visual": "Discoloration and lesions characteristic of healthy",
+      "tissue_damage": "Affected areas may show wilting, spotting, or blight",
+      "prevention": "Ensure proper spacing, drainage, and crop rotation"
+    },
+    "treatment": {
+      "immediate": "Remove infected leaves/parts; improve air circulation",
+      "chemical": "Apply approved fungicide or bactericide if available locally",
+      "management": "Monitor crop daily; isolate affected plants"
+    },
+    "soil_requirements": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.900000000000001
+      }
+    },
+    "weather_requirements": {
+      "temperature": {
+        "min": 21.54698621289269,
+        "max": 30.13742603153419,
+        "optimal": 25.469816862246
+      },
+      "rainfall": {
+        "min": 0.0,
+        "max": 11.054316866112398,
+        "optimal": 0.9724022320773961
+      },
+      "humidity": {
+        "min": 51.45062506579676,
+        "max": 85.23023262404628,
+        "optimal": 69.31790831399451
+      }
+    },
+    "sample_count": 224
+  }
+}

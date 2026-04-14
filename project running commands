@@ -1,0 +1,3 @@
+Dashboard..
+cd "soilvisionet_production" ; python -m streamlit run ui/app.py
+

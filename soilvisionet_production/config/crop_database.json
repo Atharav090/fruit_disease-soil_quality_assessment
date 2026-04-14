@@ -1,0 +1,724 @@
+{
+  "apple": {
+    "display_name": "Apple",
+    "family": "apple",
+    "total_classes": 8,
+    "disease_classes": [
+      "Apple___Apple_scab",
+      "Apple___healthy",
+      "Apple___Black_rot",
+      "Apple___Cedar_apple_rust",
+      "APPLE___blotch_apple",
+      "APPLE___healthy_apple",
+      "APPLE___rot_apple",
+      "APPLE___scab_apple"
+    ],
+    "disease_ids": [
+      22,
+      23,
+      28,
+      34,
+      38,
+      39,
+      40,
+      41
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 952
+  },
+  "blueberry": {
+    "display_name": "Blueberry",
+    "family": "blueberry",
+    "total_classes": 1,
+    "disease_classes": [
+      "Blueberry___healthy"
+    ],
+    "disease_ids": [
+      2
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 239
+  },
+  "cherry_(including_sour)": {
+    "display_name": "Cherry (Including Sour)",
+    "family": "cherry (including sour)",
+    "total_classes": 2,
+    "disease_classes": [
+      "Cherry_(including_sour)___Powdery_mildew",
+      "Cherry_(including_sour)___healthy"
+    ],
+    "disease_ids": [
+      10,
+      36
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 313
+  },
+  "corn_(maize)": {
+    "display_name": "Corn (Maize)",
+    "family": "corn (maize)",
+    "total_classes": 4,
+    "disease_classes": [
+      "Corn_(maize)___healthy",
+      "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "Corn_(maize)___Common_rust_",
+      "Corn_(maize)___Northern_Leaf_Blight"
+    ],
+    "disease_ids": [
+      8,
+      12,
+      25,
+      35
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 626
+  },
+  "grape": {
+    "display_name": "Grape",
+    "family": "grape",
+    "total_classes": 4,
+    "disease_classes": [
+      "Grape___Black_rot",
+      "Grape___Esca_(Black_Measles)",
+      "Grape___healthy",
+      "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)"
+    ],
+    "disease_ids": [
+      1,
+      9,
+      20,
+      30
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 646
+  },
+  "guava": {
+    "display_name": "Guava",
+    "family": "guava",
+    "total_classes": 3,
+    "disease_classes": [
+      "GUAVA___anthracnose_guava",
+      "GUAVA___fruitfly_guava",
+      "GUAVA___healthy_guava"
+    ],
+    "disease_ids": [
+      42,
+      43,
+      44
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 120.0,
+        "max": 120.0,
+        "optimal": 120.0
+      },
+      "phosphorus": {
+        "min": 45.0,
+        "max": 45.0,
+        "optimal": 45.0
+      },
+      "potassium": {
+        "min": 35.0,
+        "max": 35.0,
+        "optimal": 35.0
+      },
+      "ph": {
+        "min": 7.6,
+        "max": 7.6,
+        "optimal": 7.6
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 300
+  },
+  "mango": {
+    "display_name": "Mango",
+    "family": "mango",
+    "total_classes": 5,
+    "disease_classes": [
+      "MANGO___alternaria_mango",
+      "MANGO___anthracnose_mango",
+      "MANGO___black_mould_rot_(aspergillus)_mango",
+      "MANGO___healthy_mango",
+      "MANGO___stem_and_rot_(lasiodiplodia)_mango"
+    ],
+    "disease_ids": [
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 738
+  },
+  "orange": {
+    "display_name": "Orange",
+    "family": "orange",
+    "total_classes": 1,
+    "disease_classes": [
+      "Orange___Haunglongbing_(Citrus_greening)"
+    ],
+    "disease_ids": [
+      19
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 847
+  },
+  "peach": {
+    "display_name": "Peach",
+    "family": "peach",
+    "total_classes": 2,
+    "disease_classes": [
+      "Peach___healthy",
+      "Peach___Bacterial_spot"
+    ],
+    "disease_ids": [
+      15,
+      26
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 60.0,
+        "max": 60.0,
+        "optimal": 60.0
+      },
+      "phosphorus": {
+        "min": 20.0,
+        "max": 20.0,
+        "optimal": 20.0
+      },
+      "potassium": {
+        "min": 40.0,
+        "max": 40.0,
+        "optimal": 40.0
+      },
+      "ph": {
+        "min": 6.0,
+        "max": 6.0,
+        "optimal": 6.0
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 460
+  },
+  "pepper,_bell": {
+    "display_name": "Pepper, Bell",
+    "family": "pepper, bell",
+    "total_classes": 2,
+    "disease_classes": [
+      "Pepper,_bell___healthy",
+      "Pepper,_bell___Bacterial_spot"
+    ],
+    "disease_ids": [
+      4,
+      32
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999999
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 399
+  },
+  "pomegranate": {
+    "display_name": "Pomegranate",
+    "family": "pomegranate",
+    "total_classes": 5,
+    "disease_classes": [
+      "POMEGRANATE___alternaria_pomegranate",
+      "POMEGRANATE___anthracnose_pomegranate",
+      "POMEGRANATE___bacterial_blight_pomegranate",
+      "POMEGRANATE___cercospora_pomegranate",
+      "POMEGRANATE___healthy_pomegranate"
+    ],
+    "disease_ids": [
+      50,
+      51,
+      52,
+      53,
+      54
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1000000000000005
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 5099
+  },
+  "potato": {
+    "display_name": "Potato",
+    "family": "potato",
+    "total_classes": 3,
+    "disease_classes": [
+      "Potato___Late_blight",
+      "Potato___Early_blight",
+      "Potato___healthy"
+    ],
+    "disease_ids": [
+      18,
+      24,
+      27
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 120.0,
+        "max": 120.0,
+        "optimal": 120.0
+      },
+      "phosphorus": {
+        "min": 45.0,
+        "max": 45.0,
+        "optimal": 45.0
+      },
+      "potassium": {
+        "min": 35.0,
+        "max": 35.0,
+        "optimal": 35.0
+      },
+      "ph": {
+        "min": 7.6,
+        "max": 7.6,
+        "optimal": 7.6
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 346
+  },
+  "raspberry": {
+    "display_name": "Raspberry",
+    "family": "raspberry",
+    "total_classes": 1,
+    "disease_classes": [
+      "Raspberry___healthy"
+    ],
+    "disease_ids": [
+      37
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.100000000000002
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 44
+  },
+  "soybean": {
+    "display_name": "Soybean",
+    "family": "soybean",
+    "total_classes": 1,
+    "disease_classes": [
+      "Soybean___healthy"
+    ],
+    "disease_ids": [
+      21
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.099999999999998
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 885
+  },
+  "squash": {
+    "display_name": "Squash",
+    "family": "squash",
+    "total_classes": 1,
+    "disease_classes": [
+      "Squash___Powdery_mildew"
+    ],
+    "disease_ids": [
+      7
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 270
+  },
+  "strawberry": {
+    "display_name": "Strawberry",
+    "family": "strawberry",
+    "total_classes": 2,
+    "disease_classes": [
+      "Strawberry___Leaf_scorch",
+      "Strawberry___healthy"
+    ],
+    "disease_ids": [
+      31,
+      33
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 75.0,
+        "max": 75.0,
+        "optimal": 75.0
+      },
+      "phosphorus": {
+        "min": 43.0,
+        "max": 43.0,
+        "optimal": 43.0
+      },
+      "potassium": {
+        "min": 26.0,
+        "max": 26.0,
+        "optimal": 26.0
+      },
+      "ph": {
+        "min": 7.1,
+        "max": 7.1,
+        "optimal": 7.1
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 271
+  },
+  "tomato": {
+    "display_name": "Tomato",
+    "family": "tomato",
+    "total_classes": 10,
+    "disease_classes": [
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "Tomato___Bacterial_spot",
+      "Tomato___Late_blight",
+      "Tomato___healthy",
+      "Tomato___Spider_mites Two-spotted_spider_mite",
+      "Tomato___Tomato_mosaic_virus",
+      "Tomato___Target_Spot",
+      "Tomato___Leaf_Mold",
+      "Tomato___Septoria_leaf_spot",
+      "Tomato___Early_blight"
+    ],
+    "disease_ids": [
+      0,
+      3,
+      5,
+      6,
+      11,
+      13,
+      14,
+      16,
+      17,
+      29
+    ],
+    "optimal_soil": {
+      "nitrogen": {
+        "min": 72.0,
+        "max": 72.0,
+        "optimal": 72.0
+      },
+      "phosphorus": {
+        "min": 42.0,
+        "max": 42.0,
+        "optimal": 42.0
+      },
+      "potassium": {
+        "min": 25.0,
+        "max": 25.0,
+        "optimal": 25.0
+      },
+      "ph": {
+        "min": 6.9,
+        "max": 6.9,
+        "optimal": 6.9
+      }
+    },
+    "growing_season": "Year-round (varies by region)",
+    "water_requirement": "Moderate to High",
+    "companion_crops": [],
+    "avoid_crops": [],
+    "sample_count": 2853
+  }
+}

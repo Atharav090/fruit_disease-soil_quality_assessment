@@ -1,0 +1,27 @@
+# SoilVisioNet Development Requirements (Optional)
+# Install with: pip install -r requirements-dev.txt
+# 
+# Note: These packages are optional for development/testing only.
+# For production deployment, only requirements.txt is needed.
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Jupyter (optional - may have path length issues on Windows)
+# jupyter>=1.0.0
+# jupyterlab>=4.0.0
+
+# Code quality
+black>=24.0.0
+flake8>=7.0.0
+pylint>=3.0.0
+mypy>=1.7.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=2.0.0
+
+# Performance profiling
+line-profiler>=4.1.0
+memory-profiler>=0.61.0
